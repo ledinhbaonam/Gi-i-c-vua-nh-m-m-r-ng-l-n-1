@@ -1,0 +1,120 @@
+{
+  "title": "GIẢI ĐẤU CỜ VÔ ĐỊCH MÙA GIẢI 2026",
+  "subtitle": "Vòng Bảng & Vòng Loại Trực Tiếp (Bán Kết - Chung Kết)",
+  "adminPin": "24072013",
+  "players": [
+    {
+      "id": "p_a1",
+      "name": "Duy Khang",
+      "group": "A"
+    },
+    {
+      "id": "p_a2",
+      "name": "Hoàng Long",
+      "group": "A"
+    },
+    {
+      "id": "p_a3",
+      "name": "Thái Hưng",
+      "group": "A"
+    },
+    {
+      "id": "p_a4",
+      "name": "Thiên Bảo",
+      "group": "A"
+    },
+    {
+      "id": "p_b1",
+      "name": "Bình Nam",
+      "group": "B"
+    },
+    {
+      "id": "p_b2",
+      "name": "Bảo Nam",
+      "group": "B"
+    },
+    {
+      "id": "p_b3",
+      "name": "Khôi Nguyên",
+      "group": "B"
+    },
+    {
+      "id": "p_b4",
+      "name": "Chí Khang",
+      "group": "B"
+    }
+  ],
+  "matches": [
+    {
+      "group": "A",
+      "round": 1,
+      "leg": "di",
+      "date": "2026-11-15",
+      "time": "08:30",
+      "session": "sang",
+      "player1Id": "p_a1",
+      "player2Id": "p_a2",
+      "tableNumber": 1,
+      "id": "m_a_r1_1793607287181",
+      "status": "scheduled",
+      "updatedAt": "2026-11-02T08:14:47.181Z"
+    }
+  ],
+  "knockoutMatches": [
+    {
+      "id": "ko_semi1",
+      "stage": "semi1",
+      "title": "Bán Kết 1",
+      "player1Label": "Nhất Bảng A (A1)",
+      "player2Label": "Nhì Bảng B (B2)",
+      "status": "scheduled",
+      "player1Id": "p_a1",
+      "player2Id": "p_b1"
+    },
+    {
+      "id": "ko_semi2",
+      "stage": "semi2",
+      "title": "Bán Kết 2",
+      "player1Label": "Nhất Bảng B (B1)",
+      "player2Label": "Nhì Bảng A (A2)",
+      "status": "scheduled",
+      "player1Id": "p_b2",
+      "player2Id": "p_a2"
+    },
+    {
+      "id": "ko_third_place",
+      "stage": "third_place",
+      "title": "Tranh Hạng Ba",
+      "player1Label": "Thua Bán Kết 1",
+      "player2Label": "Thua Bán Kết 2",
+      "status": "scheduled"
+    },
+    {
+      "id": "ko_final",
+      "stage": "final",
+      "title": "Trận Chung Kết",
+      "player1Label": "Thắng Bán Kết 1",
+      "player2Label": "Thắng Bán Kết 2",
+      "status": "scheduled"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1793607287181",
+      "timestamp": "2026-11-02T08:14:47.181Z",
+      "type": "schedule",
+      "roundText": "Lượt 1",
+      "title": "Thêm lịch thi đấu Bảng A",
+      "detail": "Duy Khang gặp Hoàng Long vào lúc 08:30 ngày 2026-11-15 (Buổi Sáng)."
+    },
+    {
+      "id": "notif_welcome",
+      "timestamp": "2026-11-02T08:13:49.808Z",
+      "type": "system",
+      "roundText": "Hệ thống",
+      "title": "Khởi tạo giải đấu thành công",
+      "detail": "Bảng A (4 kỳ thủ) và Bảng B (4 kỳ thủ) đã sẵn sàng. Ban tổ chức sẽ cập nhật lịch thi đấu và kết quả trực tiếp."
+    }
+  ],
+  "lastUpdated": "2026-11-02T08:14:47.181Z"
+}

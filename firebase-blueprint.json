@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Tournament": {
+      "title": "Tournament",
+      "description": "Represents the tournament state including schedule, standings, knockout matches, and notifications",
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Title of the tournament"
+        },
+        "subtitle": {
+          "type": "string",
+          "description": "Subtitle or description"
+        },
+        "adminPin": {
+          "type": "string",
+          "description": "Admin security PIN"
+        },
+        "players": {
+          "type": "array",
+          "description": "List of players in the tournament"
+        },
+        "matches": {
+          "type": "array",
+          "description": "List of group stage matches with scores and schedules"
+        },
+        "knockoutMatches": {
+          "type": "array",
+          "description": "List of knockout matches (Semi-finals, Final, 3rd place)"
+        },
+        "notifications": {
+          "type": "array",
+          "description": "Log of recent results and announcements"
+        },
+        "lastUpdated": {
+          "type": "string",
+          "description": "ISO timestamp of the last update"
+        }
+      },
+      "required": ["title", "players", "matches", "lastUpdated"]
+    }
+  },
+  "firestore": {
+    "/tournaments/{tournamentId}": {
+      "schema": "Tournament",
+      "description": "Collection of tournament instances"
+    }
+  }
+}

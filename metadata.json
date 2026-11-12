@@ -1,0 +1,8 @@
+{
+  "name": "Hệ Thống Quản Lý Lịch Thi Đấu & Bảng Xếp Hạng Giải Cờ",
+  "description": "Ứng dụng chuyên nghiệp quản lý lịch thi đấu, cập nhật kết quả 1 - 0.5 - 0, bảng xếp hạng trực tiếp, phân nhánh Bán kết & Chung kết.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
